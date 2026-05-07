@@ -13,6 +13,20 @@
 ```bash
 # අවශ්‍ය ලයිබ්‍රරි ඉන්ස්ටෝල් කිරීම
 pip install flask werkzeug
+```
+```bash
+#start kamand eka
+python3 app.py
 
+```
+```bash
+#link eka ganna install karanna
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+chmod +x cloudflared-linux-amd64
+mv cloudflared-linux-amd64 cloudflared
+```
+```bash
+#link eka ganna waguwaka wagee link eka ennee eekayi link eka
+./cloudflared tunnel --url http://localhost:8080
 
 
